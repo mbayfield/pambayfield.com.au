@@ -1,0 +1,70 @@
+body{background-color:#E7E5E2;font-size:12px;font-family:Arial, Helvetica, sans-serif;}
+.navbar{background-color:#5A5963;vertical-align:top;text-align:left;width:135px;}
+.image{padding:5px 0px 5px 25px;background:url(../images/next.gif) no-repeat transparent;}
+p{font-size:16px;text-align:justify;}
+h1{color:#EA8B47;font-size:18px;font-weight:bold;margin:0px;}
+h2{color:#EA8B47;font-size:14px;font-weight:bold;padding:40px 0px 0px 0px;margin:0px;}
+h3{color:#EA8B47;font-size:12px;font-weight:bold;margin:0px;padding:0px;}
+#mainTable{border:#000 1px solid;padding:0px;margin:0px;background-color:#E7E5E2;border-spacing:0px;width:900px;}
+#header{text-align:left;}
+.bannerImage{float:left;padding-right:40px;}
+#buyNowBlock{width:100%;text-align:center;}
+#links li{font-size:14px;}
+blockquote{font-size:16px;text-align:justify;}
+#otherbooks{text-align:center;color:#EA8B47;font-size:12px;font-weight:bold;}
+#otherbooks img{padding:10px;}
+#otherbooks a br{clear:right;}
+img{border:0px;}
+.smallBlack{font-size:10px;color:#000;font-weight:normal;}
+.other-releases a{text-align:center;padding-right:50px;}
+#currentRelease{padding-bottom:10px;text-align:left;color:#EA8B47;font-size:14px;font-weight:bold;font-family:Arial, Helvetica, sans-serif;}
+/*#currentRelease img{padding-right:50px;}*/
+#currentRelease fieldset{padding:15px;}
+#currentRelease div{text-align:center;}
+#buyNow{color:#EC8542;font-family:Arial, Helvetica, sans-serif;}
+.bodyContent{font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+#currentRelease #invite{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#000000;font-weight:normal;text-align:left;}
+#currentRelease #title{color:#000000;font-size:12px;text-align:center;font-weight:normal;}
+#currentRelease #booktitle{color:#000000;font-size:20px;text-align:center;font-weight:normal;font-family:cursive;}
+#copyright{font-family:Arial, Helvetica, sans-serif;font-size:10px;padding:15px;text-align:center;}
+.soldOut{color:#993300;font-weight:bold;font-variant:small-caps;}
+.highlight{font-family:Arial, Helvetica, sans-serif;font-size:18px;font-weight:bold;color:#EC8542;}
+hr.light{border:none;border-bottom:1px solid #e2e2e2;height:0px;}
+#content{height:500px;vertical-align:top;}
+a.link{color:#555462;text-decoration:underline;font-weight:bold;}
+a.link:hover{color:#555462;text-decoration:none;}
+strong{color:#555462;}
+.textField{}
+#message{padding:2px;border:1px solid #CCCCCC;width:300px;height:100px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;}
+#submit{margin-top:10px;display:block;border:1px solid #000000;width:100px;height:20px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;padding-left:2px;padding-right:2px;padding-top:0px;padding-bottom:2px;line-height:14px;background-color:#EFEFEF;}
+.textInput{padding:2px;border:1px solid #CCCCCC;width:180px;height:14px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11px;}
+.wrongCode{border:1px solid #990000;background-color:#D70000;color:#FFFFFF;padding:4px;padding-left:6px;width:295px;}
+.panelwrappers{overflow:hidden;}
+#container{width:553px;padding:10px;margin:auto;}
+.nav, .nav *{margin:0;padding:0;}
+.nav{line-height:1.0;margin-bottom:1.5em;width:11.1em;}
+.nav ul{background:#fff;width:9.45em;}
+.nav li{background:#5A5963;border-top:1px solid #fff;float:left;list-style:none;position:relative;width:11.1em;z-index:999;}
+.nav a{color:#fff;display:block;padding:.75em 0 .75em 0.5em;text-decoration:none;width:7.45em;white-space:nowrap;}
+.nav li ul{top:-999em;position:absolute;width:9.55em;}
+.nav li:hover, .nav li.sfHover, .nav a:focus, .nav a:hover, .nav a:active{background:#5A5963;}
+.nav li:hover ul,ul.nav li.sfHover ul{left:11.1em;top:-1px;}
+.nav li:hover li ul, .nav li.sfHover li ul{top:-999em;}
+.nav li li:hover ul,ul.nav li li.sfHover ul{left:9.45em;top:-1px;}
+.nav li li:hover li ul, .nav li li.sfHover li ul{top:-999em;}
+.nav li li li:hover ul,ul.nav li li li.sfHover ul{left:11.1em;top:-1px;}
+.superfish li:hover ul, .superfish li li:hover ul, .superfish li li li:hover ul{top:-999em;}
+.nav li li{background:#5A5963;width:12.45em;}
+.nav li li li{background:#9AAEDB;}
+.nav li li a{padding-right:0;width:7.45em;}
+
+.navbar .nav > li > a, .navbar .nav > li > a:hover { color: #fff; text-shadow: none; }
+.promo {
+    padding: 15px;
+}
+.promo h1 {
+    font-size: 36px;
+    color: #000;
+    border: none;
+    padding: 0px;
+}

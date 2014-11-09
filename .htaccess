@@ -1,0 +1,22 @@
+#cache css, javascript and text files for one week
+<FilesMatch ".(js|css|txt)$">
+Header set Cache-Control "max-age=604800"
+</FilesMatch>
+
+#cache flash and images for one month
+<FilesMatch ".(flv|swf|ico|gif|jpg|jpeg|JPG|png)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+
+#disable cache for script files
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+
+#Rewrite Rules
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^pambayfield.com.au
+RewriteRule (.*) http://www.pambayfield.com.au/$1 [R=301,L]
+
+RewriteRule ^current-release.html /knees-up-mother-brown.html [R=301,L]

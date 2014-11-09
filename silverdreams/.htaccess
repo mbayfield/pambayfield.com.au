@@ -1,0 +1,8 @@
+#Rewrite Rules
+RewriteEngine On
+
+Redirect 301 /index.html http://www.pambayfield.com.au/silver-dreams.html
+Redirect 301 /book-reviews.html http://www.pambayfield.com.au/silver-dreams-book-review.html
+Redirect 301 /reviews-david-rumsey.html http://www.pambayfield.com.au/reviews-david-rumsey.html
+Redirect 301 /media/manly-daily-may-2008.html http://www.pambayfield.com.au/media/manly-daily-may-2008.html
+Redirect 301 /media/pittwater-life-may-2008.html http://www.pambayfield.com.au/media/pittwater-life-may-2008.html

@@ -1,0 +1,6 @@
+User-agent: *
+Sitemap: http://www.pambayfield.com.au/sitemap.xml
+Disallow: /includes
+Disallow: /mailer.php
+Disallow: /verificationimage.php
+Crawl-delay: 10

@@ -1,0 +1,180 @@
+body {
+	background-color: #E7E5E2;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	background-color: #5A5963;
+	vertical-align: top;
+	text-align: left;
+}
+.image {
+		padding:5px 0px 5px 25px;
+		background: url(../images/next.gif) no-repeat transparent;
+	}
+p {
+	font-size: 12px;
+	text-align: justify;
+}
+h1 {
+	color: #EA8B47;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 40px 0px 0px 0px;
+	margin: 0px;
+}
+
+h2 {
+	color: #EA8B47;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 40px 0px 0px 0px;
+	margin: 0px;
+}
+h3 {
+	color: #EA8B47;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#mainTable {
+	border: #000 1px solid;
+	padding: 0px;
+	margin: 0px;
+	background-color: #E7E5E2;
+	border-spacing: 0px;
+	width: 648px;
+}
+
+#header {
+	text-align: left;
+}
+
+.bannerImage {
+	float: left; 
+	padding-right: 30px;
+}
+
+div {
+font-family: Arial, Helvetica, sans-serif;
+}
+#links li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+blockquote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+}
+#otherbooks {
+	padding: 10px 20px;
+	text-align: center;
+	color: #EA8B47;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#otherbooks img {
+	padding: 10px ;
+}
+
+#otherbooks a br {
+	clear: right;
+}
+img {
+	border: 0px;
+}
+
+
+#currentRelease {
+	padding: 10px 20px;
+	text-align: left;
+	color: #EA8B47;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#currentRelease img {
+	float: left;
+	padding-right: 50px;
+}
+#currentRelease fieldset {
+	padding: 15px;
+}
+#currentRelease div {
+	text-align: center;
+}
+#buyNow {
+	color: #EC8542;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.bodyContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#currentRelease  #invite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+}
+
+#currentRelease #title {
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+}
+
+#currentRelease #booktitle {
+	color: #000000;
+	font-size: 20px;
+	text-align: center;
+	font-weight: normal;
+	font-family: cursive;
+}
+
+#copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 15px;
+	text-align: center;
+}
+
+.soldOut {
+
+	color: #993300;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+.highlight {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #EC8542;
+}
+
+hr.light 
+	{
+	border: none;
+	border-bottom: 1px solid #e2e2e2;
+	height: 0px;
+	}
+
+#content {
+	height: 500px;
+	vertical-align: top;
+}
+a.link { color: #555462; text-decoration: underline; font-weight: bold; }
+a.link:hover { color: #555462; text-decoration: none; }
+#pageName { display: none; }
+
+/* .lightbox-enabled a.link:hover { color: #555462; text-decoration: none; } */
+/* .lightbox-enabled a.link {
+	color: #555462; text-decoration: underline; font-weight: bold;
+} */
