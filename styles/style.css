@@ -54,10 +54,10 @@ strong{color:#555462;}
 .nav li li:hover li ul, .nav li li.sfHover li ul{top:-999em;}
 .nav li li li:hover ul,ul.nav li li li.sfHover ul{left:11.1em;top:-1px;}
 .superfish li:hover ul, .superfish li li:hover ul, .superfish li li li:hover ul{top:-999em;}
-.nav li li{background:#5A5963;width:12.45em;}
+.nav li li{background:#5A5963;width:17.45em;height: 40px;}
 .nav li li li{background:#9AAEDB;}
 .nav li li a{padding-right:0;width:7.45em;}
-
+.navbar .nav { margin: 0; }
 .navbar .nav > li > a, .navbar .nav > li > a:hover { color: #fff; text-shadow: none; }
 .promo {
     padding: 15px;
